@@ -1,4 +1,8 @@
-## Hi there 👋
+<ul>
+  <li>WPI Class of 2024</li>
+  <li>B.S./M.S. in Computer Science</li>
+  <li>Software engineer</li>
+</ul>
 
 <!--
 **tjcoppola234/tjcoppola234** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
