@@ -1,0 +1,49 @@
+@keyframes growIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 23px;
+  background-image: radial-gradient(black, #012c01, #025802, #0a690a);
+  background-attachment: fixed;
+  background-size: 100% 150%;
+  background-position: 50%;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+
+  animation: growIn 1.5s ease-out;
+  transform-origin: center;
+}
+
+h1, p, .links img {
+  transition: all 0.2s ease-in;
+  filter: brightness(0) saturate(100%) invert(43%) sepia(98%) saturate(3435%) hue-rotate(96deg) brightness(130%) contrast(98%)
+}
+
+.links img{
+  border-radius: 100%; 
+  margin: 7px;
+}
+
+.links img:hover{
+  transition: all 0.2s ease-in;
+  filter:  brightness(0) saturate(100%) invert(43%) sepia(98%) saturate(3435%) hue-rotate(96deg) brightness(60%) contrast(98%)
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
